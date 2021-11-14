@@ -2,7 +2,7 @@ var readlineSync = require('readline-sync');
 
 //welcome
 var name = readlineSync.question("Whats your name? ");
-console.log("Welcome! " + name + "\n" +"Lets see how much you know about Hiphop.");
+console.log("Welcome! " + name + "\n" +"Lets see how much you know me.");
 console.log("But before that, here are the rules: " + "\n" + "1. +1 for correct answer" + "\n" + "2. -1 for wrong answer");
 
 console.log("************************");
