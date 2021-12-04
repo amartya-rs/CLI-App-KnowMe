@@ -30,17 +30,17 @@ var q3 = ["Hiphop", "Pop", "Classical"];
 var q4 = ["RKMV", "SKM", "DBS"];
 
 //questions array
-var mainq = ["Whats my sir name? ", "Where do I live? ", "Whats my fav music genre? ", "From which school I did my 12th? "];
+var mainq = ["Whats my sir name? ", "Where do I live? ", "Whats my fav music genre? ", "From which school I did my 12th? ", "I graduated from which college?"];
 
 //array of optins
-var qArray = [q1, q2, q3, q4];
+var qArray = [q1, q2, q3, q4, q5];
 
 //answers array
-var answersArray = [1, 2, 0, 0];
+var answersArray = [1, 2, 0, 0, 1];
 
 
 //main loop which calls the function quiz
-for (i=0; i<4; i++) {
+for (i=0; i<5; i++) {
   quiz(qArray[i], mainq[i], answersArray[i]);
 }
 
